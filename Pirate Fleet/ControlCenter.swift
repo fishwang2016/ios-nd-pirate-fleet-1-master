@@ -40,8 +40,8 @@ class ControlCenter {
         human.addShipToGrid(bigship)
         human.addShipToGrid(exbigship)
         
-        let mine1 = Mine(location:GridLocation(x: 3, y: 2),explosionText: "Hit Mine 1")
-        let mine2 = Mine(location:GridLocation(x: 4,y:2),explosionText:"Hit Mine 2")
+        let mine1 = Mine(location:GridLocation(x: 1, y: 1),explosionText: "Hit Mine 1")
+        let mine2 = Mine(location:GridLocation(x: 6,y:2),explosionText:"Hit Mine 2")
         human.addMineToGrid(mine1)
         human.addMineToGrid(mine2)
         
